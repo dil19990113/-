@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">z
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>1st day</title>
     <link rel="stylesheet" href="1stday.css">
         <!---Fonts-->
@@ -31,6 +31,39 @@
                 (මුළු දුර කි.මි 1 මිටර් 400) ක් වෙි.</p>
             </div>
           </section> 
+<style>
+  @keyframes colorAnimation {
+    0% { border-color: rgb(255, 0, 0); } /* Start with red */
+    25% { border-color: rgb(0, 255, 0); } /* Change to green at 25% */
+    50% { border-color: rgb(0, 0, 255); } /* Change to blue at 50% */
+    75% { border-color: rgb(255, 255, 0); } /* Change to yellow at 75% */
+    100% { border-color: rgb(255, 0, 255); } /* Change to magenta at 100% */
+  }
+  
+  .bg-image-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255,255,0); /* White text color */
+    background-color: transparent; /* Transparent background */
+    border: 2px solid rgb(255, 0, 0); /* Initial border color */
+    border-radius: 10px; /* Round the corners */
+    cursor: pointer;
+    outline: none;
+    /* Add padding to make text visible */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Hide default anchor text decoration */
+    text-decoration: none;
+    /* Animation */
+    animation: colorAnimation 5s infinite; /* Apply animation with 5 seconds duration, repeat infinitely */
+  }
 
+  .bg-image-btn:hover {
+    color: rgb(0,255,0); /* White text color on hover */
+    background-color: transparent; /* Transparent background on hover */
+  }
+</style>
+ <a href="/freme_1.html" class="bg-image-btn">විස්තරාත්මකව තොරණ නැරඹීමට මෙය Click කරන්න</a>
         </body>
         </html>
